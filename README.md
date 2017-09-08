@@ -8,17 +8,109 @@ There's 2 study groups:
    * starting on 2017-10-03 (every 2 weeks, even weeks), lead by @romanblanco and @lpichler
 
 ---
+Student can gain 40 points during lessons.
 
-1st lesson:
+### 1st lesson:
 
-* visiting Red Hat
+* visiting Red Hat office including a small tour 
+* introduction of the course - University of Helsinki’s Software Factory as inspiration, main idea and objectives
+* discussion about preferences - writing tests, Selenium, refactoring, debugging, … 
 
-2nd:
+### 2nd (10 points) :octocat: :
 
-* git basics - commit, branch, checkout, pull, push, clone
+Introduce Git and GitHub to students. Students should use only console. GUI like SourceTree are forbidden.
 
-3rd:
+* git basics - **10 pts** *(1pt per used command)*
+  * create GitHub account 
+  * git clone
+  * git remote
+  * git pull upstream/origin —ff-only
+  * git branch
+  * git checkout
+  * git diff/status
+  * git add
+  * git commit
+  * git push
 
-* git - rebase, etc.
+---
+Student is expected to create one PR to remote repository. **10 pts** 
 
-...TBD
+After this lesson student should be able to create a PR to any remote repository (on GitHub) via console.
+
+*Note: Bring GitHub materials from GitHubEducation swag they send for this class.*
+
+### 3rd (10 points) :octocat: :
+* recap :point_up:
+* git rebase master - solving conflicts **3 pts**
+* git rebase -i master (pick, reword, edit, squash/fixup, drop) **5 pts**
+* when finished mention one of instructors **2 pts**
+
+---
+Student is expected to follow instructions and create one PR to remote repository. 
+
+*Note: First student to complete all tasks successfully will be given GitHub t-shirt gift card. Stickers for everyone.* 
+
+### 4th:
+
+Introduction of ManageIQ. How it works. Architecture. Specs. @miq-bot. Travis. Code climate. Clone repos. 
+
+### 5th (10 points):
+
+Static analysis of code. Introduction of following tools for Ruby:
+
+##### FLOG
+
+- code pains
+- score - lower is better
+
+https://github.com/seattlerb/flog
+
+Install: `gem install flog`
+
+Run: `flog [file/s]`
+
+##### REEK
+
+- code smells
+
+https://github.com/troessner/reek
+
+Install: `gem install reek`
+
+Run: `reek [options] [file/s]`
+
+##### FLAY
+
+- code similarities
+
+https://github.com/seattlerb/flay
+
+Install: `gem install flay`
+
+Run: `flay -u —diff [file/s]`
+
+##### DEBRIDE
+
+- unused methods
+
+https://github.com/seattlerb/debride
+
+Install: `gem install debride`
+
+Run: `debride [options] [files]`
+
+Alternative: https://github.com/danbernier/zombie_scout
+
+---
+
+Student will be given results from `debride` and will classify them to `false/true`. Each `false` should have a reason (method is called dynamically, `before/after_action`, method is called, aliases,…). **10 pts**
+
+### 6th (10 points):
+Student will verify a report from previous lesson done by his/her classmate. **5 pts**
+
+Student will try to lower score given by FLOG for one method. **5 pts**
+
+### 7th:
+Removal of unused methods - first PR (extra points?). Anything not covered in previous lessons.
+
+
