@@ -8,6 +8,10 @@ There's 2 study groups:
    * starting on 2017-10-03 (every 2 weeks, even weeks), lead by @romanblanco and @lpichler
 
 ---
+
+If you need to contact us, please use the [ManageIQ/welcome](https://gitter.im/ManageIQ/welcome) channel on [Gitter](https://gitter.im). (You'll need a github login anyway.)
+
+---
 Student can gain 40 points during lessons.
 
 ### 1st lesson:
