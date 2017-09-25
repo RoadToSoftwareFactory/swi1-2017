@@ -13,6 +13,7 @@ Student can gain 40 points during lessons.
 ### 1st lesson:
 
 * visiting Red Hat office including a small tour 
+  * meeting at 13:30 in front of the TPB-B building: Purkynova 111 - tram stop "Technologicky park"
 * introduction of the course - University of Helsinki’s Software Factory as inspiration, main idea and objectives
 * discussion about preferences - writing tests, Selenium, refactoring, debugging, … 
 
