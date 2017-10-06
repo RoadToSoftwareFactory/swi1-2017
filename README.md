@@ -42,6 +42,8 @@ Student is expected to create one PR to remote repository. **10 pts**
 
 After this lesson student should be able to create a PR to any remote repository (on GitHub) via console.
 
+Any git cheatsheet is allowed. This one is recommended https://github.com/pyvec/cheatsheets/raw/master/basic-git/basic-git-cs.pdf .
+
 *Note: Bring GitHub materials from GitHubEducation swag they send for this class.*
 
 ### 3rd (10 points) :octocat: :
