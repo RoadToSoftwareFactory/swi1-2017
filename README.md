@@ -12,7 +12,7 @@ There's 2 study groups:
 If you need to contact us, please use the [ManageIQ/welcome](https://gitter.im/ManageIQ/welcome) channel on [Gitter](https://gitter.im). (You'll need a github login anyway.)
 
 ---
-Student can gain 40 points during lessons.
+Student can gain 50 points during lessons.
 
 ### 1st lesson:
 
@@ -21,11 +21,13 @@ Student can gain 40 points during lessons.
 * introduction of the course - University of Helsinki’s Software Factory as inspiration, main idea and objectives
 * discussion about preferences - writing tests, Selenium, refactoring, debugging, … 
 
-### 2nd (10 points) :octocat: :
+### 2nd (12.5 points) :octocat: :
 
 Introduce Git and GitHub to students. Students should use only console. GUI like SourceTree are forbidden.
 
-* git basics - **10 pts** *(1pt per used command)*
+Repo: https://github.com/RoadToSoftwareFactory/swi1-2017-odd-git
+
+* git basics - **12.5 pts** *(1pt per used command)*
   * create GitHub account 
   * git clone
   * git remote
@@ -38,7 +40,7 @@ Introduce Git and GitHub to students. Students should use only console. GUI like
   * git push
 
 ---
-Student is expected to create one PR to remote repository. **10 pts** 
+Student is expected to create one PR to remote repository. **12.5 pts** 
 
 After this lesson student should be able to create a PR to any remote repository (on GitHub) via console.
 
@@ -46,7 +48,7 @@ Any git cheatsheet is allowed. This one is recommended https://github.com/pyvec/
 
 *Note: Bring GitHub materials from GitHubEducation swag they send for this class.*
 
-### 3rd (10 points) :octocat: :
+### 3rd (12.5 points) :octocat: :
 * recap :point_up:
 * git rebase master - solving conflicts **3 pts**
 * git rebase -i master (pick, reword, edit, squash/fixup, drop) **5 pts**
@@ -61,7 +63,7 @@ Student is expected to follow instructions and create one PR to remote repositor
 
 Introduction of ManageIQ. How it works. Architecture. Specs. @miq-bot. Travis. Code climate. Clone repos. 
 
-### 5th (10 points):
+### 5th (12.5 points):
 
 Static analysis of code. Introduction of following tools for Ruby:
 
@@ -110,12 +112,12 @@ Alternative: https://github.com/danbernier/zombie_scout
 
 ---
 
-Student will be given results from `debride` and will classify them to `false/true`. Each `false` should have a reason (method is called dynamically, `before/after_action`, method is called, aliases,…). **10 pts**
+Student will be given results from `debride` and will classify them to `false/true`. Each `false` should have a reason (method is called dynamically, `before/after_action`, method is called, aliases,…). **12.5 pts**
 
-### 6th (10 points):
-Student will verify a report from previous lesson done by his/her classmate. **5 pts**
+### 6th (12.5 points):
+Student will verify a report from previous lesson done by his/her classmate. **6.25 pts**
 
-Student will try to lower score given by FLOG for one method. **5 pts**
+Student will try to lower score given by FLOG for one method. **6.25 pts**
 
 ### 7th:
 Removal of unused methods - first PR (extra points?). Anything not covered in previous lessons.
