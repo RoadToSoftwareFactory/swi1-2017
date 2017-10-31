@@ -54,6 +54,16 @@ Any git cheatsheet is allowed. This one is recommended https://github.com/pyvec/
 * git rebase -i master (pick, reword, edit, squash/fixup, drop) **5 pts**
 * when finished mention one of instructors **2 pts**
 
+All submitted PR should have a feedback comment:
+
+- [ ] git rebase master - solving conflicts **3pts**
+- [ ] git rebase -i master (squash) **3pts**
+- [ ] git rebase -i master (reword) **2pts**
+- [ ] git rebase -i master (drop) **1pts**
+- [ ] git rebase -i master (edit) **2pts**
+- [ ] one of instructor mentioned **1.5pts**
+
+
 ---
 Student is expected to follow instructions and create one PR to remote repository. 
 
