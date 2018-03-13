@@ -214,3 +214,5 @@ You can see basic steps in [example PR](https://github.com/ManageIQ/manageiq-ui-
 ---
 
 ### Thursday group (Ruby)
+
+The slides for the 2nd semester are in https://github.com/RoadToSoftwareFactory/swi2-2018-slides repository for now.
